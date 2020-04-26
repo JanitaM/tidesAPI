@@ -4,7 +4,7 @@
   color: #fff;
 }
 
-.LandingPage-showcase-content {
+.LandingPage-showcase {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,18 +20,18 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.LandingPage-heading {
+.LandingPage h2 {
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
 
-.LandingPage-lead {
+.LandingPage p {
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
-.LandingPage-btn {
+.LandingPage button {
     display: inline-block;
     color: #fff;
     background: #0424D9;
@@ -41,4 +41,4 @@
   text-transform: uppercase;
 }
 
-.LandingPage-btn:hover {background: #020F59;}
+.LandingPage button:hover {background: #020F59;}
