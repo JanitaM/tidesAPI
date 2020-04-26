@@ -1,8 +1,12 @@
 import React from 'react';
+import './HomePage.css';
+import Navbar from './Navbar';
 
 const HomePage = ({ setIsLandingPage }) => {
   return (
-    <div>Test</div>
+    <main>
+      <Navbar />
+    </main>
   );
 }
 

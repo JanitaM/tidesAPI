@@ -1,0 +1,20 @@
+.Navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.Navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.Navbar li {
+  margin-left: .5rem;
+  text-transform: uppercase;
+}
